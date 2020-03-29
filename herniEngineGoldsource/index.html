@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title> GoldSRC </title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <base href="index.html">
+    <link rel="icon" type="image/png" href="images/ikona.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Googlebot" content="nofollow">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <header>
+            <div id="head"></div>
+        </header>
+        <div class="image">
+            <button id="button" onclick="show()"></button>
+        </div>
+        <main>
+            <div id="grid">
+                <div class="label" id="label"></div>
+                <div class="label" id="img"></div>
+                <div class="label" id="fun">
+                    <ul>
+                        <li id="dev">Vývojář: Valve</li>
+                        <li id="games">Hry: Half-life, Cs 1.6, TeamFortress</li>
+                        <li id="engine">Upravená verze QuakeWorld enginu.</li> <!-- HEJ! -->
+                    </ul>
+                </div>
+                <div class="label" id="properties">
+                    <ul>
+                        <li class="label" id="date">od: 8.11.1998 do:</li>
+                        <li class="label" id="platform:">Dreamcast, Pc, Playstation 2, Xbox</li>
+                        <li class="label" id="licence">Proprietární</li> <!-- HEJ! -->
+                        <li class="label" id="language">C++</li>
+                        <li class="label" id="script">Příkazy se píší v syntaxy kozole halflife</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            $("main").hide();
+            $("#grid").hide();
+
+            $("#button").click(function () {
+                $("#button").fadeOut();
+
+                $("main").fadeIn("", function () {
+                    $("#grid").animate({ marginTop: "-=1050px", height: "850px", width: "1650px" }, 1000), ({
+                        duration: "3s",
+                        easing: "linear"
+
+                    });
+                });
+
+                $("#grid").fadeIn("");
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>
