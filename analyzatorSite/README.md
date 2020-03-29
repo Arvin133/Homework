@@ -1,0 +1,1 @@
+Práci jsem vypracovat spolu s Jakubem Hájkem.
