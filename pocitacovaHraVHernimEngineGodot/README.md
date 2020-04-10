@@ -25,3 +25,5 @@ Zvuky jsem si vytvořil sám za pomocí mikrofonu v programu GoldWave.
 # Hudba
 Muziku jsem skládal na stránce www.beepbox.com která umožňuje vytvoření si vlastní skladby za pomoci webového rozhraní.
 
+## Kód
+Program jsem v psal v GDScriptu za pomocí herního enginu Godot.
