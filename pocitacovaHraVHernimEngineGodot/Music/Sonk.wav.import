@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Sonk.wav-467a7b94f2d4bf5b13355e004b581231.sample"
+
+[deps]
+
+source_file="res://Menu/Music/Sonk.wav"
+dest_files=[ "res://.import/Sonk.wav-467a7b94f2d4bf5b13355e004b581231.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
