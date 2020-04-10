@@ -16,9 +16,12 @@ Pohyb šipkami
 Mouse hover na krabovi pro útok
 Enter pro vstup do dveří
 
-##Zvuky 
+##Grafika
+Grafika je pixelová a Textury jsem si vytvořil vlastní ve photoshopu.
+
+## Zvuky 
 Zvuky jsem si vytvořil sám za pomocí mikrofonu v programu GoldWave.
 
-#Hudba
+# Hudba
 Muziku jsem skládal na stránce www.beepbox.com která umožňuje vytvoření si vlastní skladby za pomoci webového rozhraní.
 
